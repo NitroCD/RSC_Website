@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RSC_Website.props" />
+</Project>
