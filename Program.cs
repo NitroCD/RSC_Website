@@ -4,6 +4,12 @@ Runtime.PythonDLL = @"C:\Users\cdhan\AppData\Local\Programs\Python\Python311\pyt
 PythonEngine.Initialize();
 PythonEngine.BeginAllowThreads();
 
+using (Py.GIL())
+{
+    dynamic sys = Py.Import("sys");
+    sys.path.append(@"C:\dotnet\RSC_Website");
+}
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

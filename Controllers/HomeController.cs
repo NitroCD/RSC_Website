@@ -26,7 +26,7 @@ public class HomeController : Controller
     public IActionResult Test()
     {
         PythonAdapter ps = new PythonAdapter();
-        string testString = ps.pythonString();
+        string testString = ps.PythonString();
         return View("Test", testString);
     }
 

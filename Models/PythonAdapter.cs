@@ -1,17 +1,18 @@
+namespace RSC_Website.Models;
+
 using Python.Runtime;
 
 public class PythonAdapter
 {
-    public string pythonString() {
-        string output = "";
+    public string PythonString() 
+    {
+        string? output = "";
         using (Py.GIL())
         {
-            dynamic sys = Py.Import("sys");
-            sys.path.append(@"C:\dotnet\RSC_Website");
             var pythonScript = Py.Import("mypythonscript");
             var obj = pythonScript.InvokeMethod("test_method");
-            output = obj.ToString();
+            if (obj != null) { output = obj.ToString(); }
         }
-        return output;
+        return output ?? "";
     }
 }

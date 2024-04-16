@@ -31,3 +31,4 @@ C:\dotnet\RSC_Website\obj\Debug\net8.0\refint\RSC_Website.dll
 C:\dotnet\RSC_Website\obj\Debug\net8.0\RSC_Website.pdb
 C:\dotnet\RSC_Website\obj\Debug\net8.0\RSC_Website.genruntimeconfig.cache
 C:\dotnet\RSC_Website\obj\Debug\net8.0\ref\RSC_Website.dll
+C:\dotnet\RSC_Website\obj\Debug\net8.0\RSC_Website.sourcelink.json
