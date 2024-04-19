@@ -7,7 +7,7 @@ PythonEngine.BeginAllowThreads();
 using (Py.GIL())
 {
     dynamic sys = Py.Import("sys");
-    sys.path.append(@"C:\dotnet\RSC_Website");
+    sys.path.append(@"C:\Users\cdhan\Projects\RSC_Website");
 }
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,7 +25,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+// comment out when testing on locally
+// app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();

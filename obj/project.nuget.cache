@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VGut4uNrmNkTbb8Pmh4FdYdl+sQjF/oR4lTXutjnSBygICZKrx59dfrmKAqfVsN6ZRzCft8Fnc4I9EE1eenjqw==",
+  "dgSpecHash": "5qCps/IXV4K8ET8y8ZjKcp+iBxfpbRewDjhKBaW37I8JpnusITWr5O28rOuJo4AtZA7RGgnHZz3ALrT6bdARWQ==",
   "success": true,
-  "projectFilePath": "C:\\dotnet\\RSC_Website\\RSC_Website.csproj",
+  "projectFilePath": "C:\\Users\\cdhan\\Projects\\RSC_Website\\RSC_Website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cdhan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\cdhan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

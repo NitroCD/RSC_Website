@@ -819,21 +819,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dotnet\\RSC_Website\\RSC_Website.csproj",
+      "projectUniqueName": "C:\\Users\\cdhan\\Projects\\RSC_Website\\RSC_Website.csproj",
       "projectName": "RSC_Website",
-      "projectPath": "C:\\dotnet\\RSC_Website\\RSC_Website.csproj",
+      "projectPath": "C:\\Users\\cdhan\\Projects\\RSC_Website\\RSC_Website.csproj",
       "packagesPath": "C:\\Users\\cdhan\\.nuget\\packages\\",
-      "outputPath": "C:\\dotnet\\RSC_Website\\obj\\",
+      "outputPath": "C:\\Users\\cdhan\\Projects\\RSC_Website\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cdhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\cdhan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
