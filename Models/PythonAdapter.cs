@@ -9,7 +9,7 @@ public class PythonAdapter
         string? output = "";
         using (Py.GIL())
         {
-            var pythonScript = Py.Import("mypythonscript");
+            var pythonScript = Py.Import("member");
             var obj = pythonScript.InvokeMethod("test_method");
             if (obj != null) { output = obj.ToString(); }
         }

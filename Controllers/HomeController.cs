@@ -30,6 +30,13 @@ public class HomeController : Controller
         return View("Test", testString);
     }
 
+    public IActionResult Standings()
+    {
+        // TODO
+        TeamList s19VeteranTeams = new TeamList();
+        return View("Standings", s19VeteranTeams);
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
